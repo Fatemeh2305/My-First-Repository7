@@ -1,6 +1,6 @@
 my_flask_app/
 │
-├── app.
+├── app.py
 │   └──
         from flask import Flask, render_template, redirect, url_for, flash, session
         from flask_sqlalchemy import SQLAlchemy
