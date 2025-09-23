@@ -13,7 +13,7 @@ my_flask_app/
         app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'
         db.init_app(app)
 
-        @app.before_first_request
+        @app.before_first_request in 
         def create_tables():
             db.create_all()
 
