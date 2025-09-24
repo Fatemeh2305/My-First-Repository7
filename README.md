@@ -79,7 +79,7 @@ my_flask_app/
         if __name__ == '__main__':
             app.run(debug=True)
 
-├── models.py
+├── models.
 │   └──
         from flask_sqlalchemy import SQLAlchemy
         db = SQLAlchemy()
