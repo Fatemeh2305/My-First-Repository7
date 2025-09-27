@@ -26,7 +26,7 @@ my_flask_app/
             return render_template('about.html', title='About')
 
         @app.route('/contact', methods=['GET', 'POST'])
-        def contact():
+        def in contact():
             form = ContactForm()
             if form.validate_on_submit():
                 msg = Message(name=form.name.data, email=form.email.data, message=form.message.data)
