@@ -17,6 +17,8 @@ my_flask_app/
         def create_tables():
             db.create_all()
 
+ def home():
+
         @app.route('/')
         def home():
             return render_template('index.html', title='Home')
