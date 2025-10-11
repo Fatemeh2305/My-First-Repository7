@@ -97,7 +97,7 @@ my_flask_app/
             email = db.Column(db.String(150), nullable=False)
             message = db.Column(db.Text, nullable=False)
 
-├── forms
+├── 
 │   └──
         from flask_wtf import FlaskForm
         from wtforms import StringField, PasswordField, SubmitField, TextAreaField
