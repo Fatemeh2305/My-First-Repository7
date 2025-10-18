@@ -17,7 +17,7 @@ my_flask_app/
         def create_tables():
             db.create_all()
 
- def home():
+ def home():py
 
         @app.route('/')
         def home():
