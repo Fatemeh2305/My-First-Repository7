@@ -60,7 +60,7 @@ my_flask_app/
                     session['username'] = user.username
                     flash('Login successful!', 'success')
                     return redirect(url_for('admin'))
-                else:
+                
                     flash('Invalid credentials', 'danger')
             return render_template('login.html', title='Login', form=form)
 
