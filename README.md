@@ -16,6 +16,7 @@ my_flask_app/
 
         def create_tables():
             db.create_all()
+            Flask
 
  def home():py
 
