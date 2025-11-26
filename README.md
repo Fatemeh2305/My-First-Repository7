@@ -19,7 +19,7 @@ my_flask_app/
             Flask
             db.close()
 
- def home():py
+ def home():pys
 
         @app.route('/')
         def home():
