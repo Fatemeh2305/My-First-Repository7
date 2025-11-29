@@ -18,6 +18,7 @@ my_flask_app/
             db.create_all()
             Flask
             db.close()
+             <head>
 
  def home():pys
 
