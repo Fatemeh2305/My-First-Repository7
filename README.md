@@ -7,7 +7,7 @@ my_flask_app/
         from werkzeug.security import generate_password_hash, check_password_hash
         from forms import RegistrationForm, LoginForm, ContactFor
         from models import db, User, Message
-         import models
+         import model
         app = Flask(__name__)
         app.config['SECRET_KEY'] = 'supersecretkey'
         app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'
