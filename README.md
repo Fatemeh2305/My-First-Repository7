@@ -1,7 +1,7 @@
 my_flask_app/
 │
 ├── app.py
-│   └──
+│   └──main
         from flask import Flask, render_template, redirect, url_for, flash, session
         from flask_sqlalchemy import SQLAlchemy
         from werkzeug.security import generate_password_hash, check_password_hash
