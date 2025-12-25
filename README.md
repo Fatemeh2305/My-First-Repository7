@@ -137,7 +137,7 @@ my_flask_app/
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                   <div class="container">
                     <a class="navbar-brand" href="/">Flask App</a>
-                    <div>
+                    
                       <a class="nav-link d-inline text-white" href="/">Home</a>
                       <a class="nav-link d-inline text-white" href="/about">About</a>
                       <a class="nav-link d-inline text-white" href="/contact">Contact</a>
